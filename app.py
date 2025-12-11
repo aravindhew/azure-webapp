@@ -13,7 +13,7 @@ def health():
 
 @app.route("/hello/<name>")
 def hello(name):
-    return f"Hello {name}, welcome to Azure Web App!"
+    return f"Hello {name}, welcome to Azure Web innoru test"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
