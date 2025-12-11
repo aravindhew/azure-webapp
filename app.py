@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "🎉 Python Flask App deployed to Azure Web App via GitHub Actions!"
+    return "🎉 Python Flask App deployed to Azure Web App via GitHub Actions new version test!"
 
 @app.route("/health")
 def health():
